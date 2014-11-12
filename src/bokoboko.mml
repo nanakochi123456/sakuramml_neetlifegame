@@ -1,0 +1,45 @@
+Tempo 120
+TR(10)
+	@(DanceSet)
+
+	$b{n(Kick1),}//35
+	$s{n(Snare1),}//38
+	$L{n(LowTom2),}//41
+	$l{n(LowTom1),}//43
+	$M{n(MidTom2),}//45
+	$m{n(MidTom1),}//47
+	$T{n(HighTom2),}//48
+	$t{n(HighTom1),}//50
+
+	r4
+	Sub {
+		Rythm {
+			[26 b11s11]
+		}
+	}
+
+	r5r6
+	Rythm {
+		L16T9
+		l15t7
+		M17t9
+		m17T9
+		L16t8
+		l15T9
+		M14t9
+		m17T11
+		l15t7
+		L16T9
+		l15t8
+		l15T9
+		M14t9
+		l15t7
+		m17T9
+		L16t8
+		M14T9
+		m17T11
+		l15t9
+		m17T10
+		l14t9
+		M13t9
+	}

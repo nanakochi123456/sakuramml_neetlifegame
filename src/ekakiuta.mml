@@ -1,0 +1,71 @@
+‹È–¼={"ƒj[ƒgƒh‚­‚ñ‚ÌŠG•`‚«‰Ì"}
+Copyright={"00264 ‚È‚Ì NEETŠ”Ž®‰ïŽÐ"}
+
+Int VOCALOID=1
+Int BACK=1
+
+IF(VOCALOID=1) {
+	TR(1)
+		q100
+		v127
+		r1
+		l8
+		g4ge c4cd
+		e8.e16 dc d4.r8
+		l16
+		q90
+		e8d#e g8f#g fefg aab>c
+		l8
+		q100
+		d8.d16 c<b> c2
+}
+
+IF(BACK=1) {
+	TR(2)
+		v127
+		q25
+		o5
+		'eg>c<'
+		'dfgb'
+		q100
+		'e4.g4.>c4.<'r8
+
+		v90
+		q25
+		l4
+		'<g>ce'r4
+		'<g>ce'r4
+		'<g>ce''<g>ce'
+		q100
+		'<g4.b4.>f4.'r8
+
+		q25
+		'<g>ce'r4
+		'<a>cf'r4
+		'<gb>f''<gb>f'
+		q100
+		'<c4>c2e2'
+
+	TR(3)
+		v127
+		o4
+		q25
+		c<g>
+		q100
+		c4.r8
+
+		v100
+		l4
+		q25
+		cr
+		cr
+		cc
+		q100
+		<g4.>r8
+		q25
+		cr
+		<f>r
+		<gg>
+		q100
+		>c2
+}
